@@ -60,6 +60,7 @@ EXTERN struct super_block {
   char s_is_root;
 } superblock;
 
+#define ext         5   /* extent size */
 #define IMAP		0	/* operating on the inode bit map */
 #define ZMAP		1	/* operating on the zone bit map */
 
